@@ -1,0 +1,14 @@
+# .env
+.env
+serasa/.env
+vendas/.env
+
+# API
+serasa/API*
+vendas/API*
+
+# Data
+serasa/static/
+vendas/static/
+
+vendas/save_command.txt
