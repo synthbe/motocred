@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+requests = "*"
+flask = "*"
+functions-framework = "==3.*"
+google-api-python-client = "*"
+google-auth-httplib2 = "*"
+google-auth-oauthlib = "*"
+babel = "*"
+
+[dev-packages]
+pytest = "*"
+icecream = "*"
+
+[requires]
+python_version = "3.11"
